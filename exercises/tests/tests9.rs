@@ -27,7 +27,7 @@
 //
 // You should NOT modify any existing code except for adding two lines of attributes.
 
-// I AM NOT DONE
+
 
 extern "Rust" {
     fn my_demo_function(a: u32) -> u32;
@@ -46,7 +46,7 @@ mod Foo {
 
 #[cfg(test)]
 mod tests {
-    use super::*;
+    use super::Foo::*;
 
     #[test]
     fn test_success() {
